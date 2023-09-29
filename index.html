@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Masai Mara</title>
+    <style>
+      h1 {
+        text-align: center;
+      }
+      h2 {
+        text-align: center;
+        font-weight: lighter;
+      }
+
+      p {
+        line-height: 300%;
+        font-family: "Times New Roman", Times, serif;
+        font-size: medium;
+        text-align: left;
+      }
+      button {
+        padding: 15px 20px;
+        color: #7c52ef;
+        display: block;
+        text-decoration: none;
+        font-size: 16px;
+        border-radius: 40px;
+        margin: 30px auto;
+        border: 1px solid #7c52ef;
+        transition: ease-in-out;
+        background: transparent;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+      }
+      button:hover {
+        cursor: pointer;
+        color: #fff;
+        background-color: #7c52ef;
+      }
+      .zebra {
+        display: block;
+        margin: 0 auto;
+        width: 700px;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+      }
+      li {
+        display: inline;
+        margin: 0 20px;
+      }
+      .maps {
+        text-decoration: none;
+        color: #1a64d6;
+        text-align: center;
+      }
+      .home {
+        text-decoration: none;
+        color: #1a64d6;
+        text-align: center;
+      }
+      .accommodation {
+        text-decoration: none;
+        color: #1a64d6;
+        text-align: center;
+      }
+      li :hover {
+        text-decoration: underline;
+      }
+
+      a :hover {
+        cursor: pointer;
+        transition: 200ms ease-in-out;
+      }
+      .container {
+        background-color: #fff4dd;
+        background: linear-gradient(#fff4dd);
+      }
+
+      .coder {
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body class="container">
+    <h1>
+      <strong
+        ><span>
+          <img
+            src="
+          https://s3.amazonaws.com/shecodesio-production/uploads/files/000/085/870/original/mara.jfif?1686832126"
+            width="50px"
+            ;alt="
+          Masai mara"
+          />
+        </span>
+        WILDLIFE KENYA
+      </strong>
+    </h1>
+    <h2>
+      <em> Visit Masai Mara Kenya </em>
+    </h2>
+    <ul>
+      <li>
+        <a href="https://www.masaimara.com" target="_blank" class="home">
+          Home
+
+          <li>
+            <a
+              href="https://www.masaimara.travel/maps.php"
+              target="_blank"
+              class="maps"
+              >Location
+              <li>
+                <a
+                  href="https://www.tripadvisor.com"
+                  target="_blank"
+                  class="accommodation"
+                >
+                  Accommodation
+                </a>
+              </li>
+
+              <hr />
+
+              <div></div>
+
+              <div>
+                <span>
+                  <img
+                    class="zebra"
+                    src=" https://s3.amazonaws.com/shecodesio-production/uploads/files/000/085/868/original/Masai_mara.jfif?1686831419"
+                    ;
+                    alt=" Masai_mara"
+                  />
+                </span>
+              </div>
+              <p>
+                Maasai Mara, also sometimes spelled Masai Mara and locally known
+                simply as The Mara, is a large national game reserve in Narok,
+                Kenya, contiguous with the Serengeti National Park in Tanzania.
+                It is named in honor of the Maasai people, the ancestral
+                inhabitants of the area, who migrated to the area from the Nile
+                Basin. Their description of the area when looked at from afar:
+                "Mara" means "spotted" in the local Maasai language, due to the
+                many short bushy trees which dot the landscape.<br />
+                Maasai Mara is one of the most famous and important wildlife
+                conservation and wilderness areas in Africa, world-renowned for
+                its exceptional populations of lion, leopard, cheetah and
+                African bush elephant. It also hosts the Great Migration, which
+                secured it as one of the Seven Natural Wonders of Africa, and as
+                one of the ten Wonders of the World. The Greater Mara ecosystem
+                encompasses areas known as the Maasai Mara National Reserve, the
+                Mara Triangle, and several Maasai Conservancies, including
+                Koiyaki, Lemek, Ol Chorro Oirowua, Mara North, Olkinyei, Siana,
+                Maji Moto, Naikara, Ol Derkesi, Kerinkani, Oloirien, and
+                Kimintet.
+              </p>
+
+              <br />
+              <a href=" https://www.booking.com/ " target="_blank">
+                Book an adventure</a
+              >
+              <div><button>Plan a trip</button></div>
+
+              <footer class="coder">Coded by Ann Kamanu</footer>
+            </a>
+          </li></a
+        >
+      </li>
+    </ul>
+    <script>
+      function planTrip() {
+        let name = prompt("What is your name?");
+        let address = prompt("What is your email address?");
+        let age = prompt("How old are you?");
+
+        if (age < 18) {
+          alert(
+            "Sorry" + " " + name + " ," + "You cannot plan a trip on your own😥"
+          );
+        } else {
+          alert("Thank you" + " " + name + " ," + "we'll be in touch!");
+        }
+      }
+      let planTripButton = document.querySelector("button");
+      planTripButton.addEventListener("click", planTrip);
+    </script>
+  </body>
+</html>
