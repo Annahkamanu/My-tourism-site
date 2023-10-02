@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Masai Mara</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
     <style>
       h1 {
         text-align: center;
@@ -39,8 +45,8 @@
       }
       .zebra {
         display: block;
-        margin: 0 auto;
-        width: 700px;
+        width: 600px;
+        height: 600px;
       }
       ul {
         list-style: none;
@@ -75,12 +81,17 @@
         transition: 200ms ease-in-out;
       }
       .container {
-        background-color: #fff4dd;
         background: linear-gradient(#fff4dd);
       }
 
       .coder {
         text-align: left;
+      }
+      @media (max-width: 1300px) {
+        .zebra {
+          max-width: 400px;
+          max-height: 400px;
+        }
       }
     </style>
   </head>
@@ -127,38 +138,57 @@
 
               <div></div>
 
-              <div>
-                <span>
+              <div class="row">
+                <div class="col-6">
                   <img
                     class="zebra"
                     src=" https://s3.amazonaws.com/shecodesio-production/uploads/files/000/085/868/original/Masai_mara.jfif?1686831419"
                     ;
                     alt=" Masai_mara"
                   />
-                </span>
+                </div>
+                <div class="col-lg-6">
+                  <p>
+                    Maasai Mara, also sometimes spelled Masai Mara and locally
+                    known simply as The Mara, is a large national game reserve
+                    in Narok, Kenya, contiguous with the Serengeti National Park
+                    in Tanzania. It is named in honor of the Maasai people, the
+                    ancestral inhabitants of the area, who migrated to the area
+                    from the Nile Basin. Their description of the area when
+                    looked at from afar: "Mara" means "spotted" in the local
+                    Maasai language, due to the many short bushy trees which dot
+                    the landscape.<br />
+                    Maasai Mara is one of the most famous and important wildlife
+                    conservation and wilderness areas in Africa, world-renowned
+                    for its exceptional populations of lion, leopard, cheetah
+                    and African bush elephant. It also hosts the Great
+                    Migration, which secured it as one of the Seven Natural
+                    Wonders of Africa, and as one of the ten Wonders of the
+                    World. The Greater Mara ecosystem encompasses areas known as
+                    the Maasai Mara National Reserve, the Mara Triangle, and
+                    several Maasai Conservancies, including Koiyaki, Lemek, Ol
+                    Chorro Oirowua, Mara North, Olkinyei, Siana, Maji Moto,
+                    Naikara, Ol Derkesi, Kerinkani, Oloirien, and Kimintet.
+                  </p>
+                </div>
               </div>
-              <p>
-                Maasai Mara, also sometimes spelled Masai Mara and locally known
-                simply as The Mara, is a large national game reserve in Narok,
-                Kenya, contiguous with the Serengeti National Park in Tanzania.
-                It is named in honor of the Maasai people, the ancestral
-                inhabitants of the area, who migrated to the area from the Nile
-                Basin. Their description of the area when looked at from afar:
-                "Mara" means "spotted" in the local Maasai language, due to the
-                many short bushy trees which dot the landscape.<br />
-                Maasai Mara is one of the most famous and important wildlife
-                conservation and wilderness areas in Africa, world-renowned for
-                its exceptional populations of lion, leopard, cheetah and
-                African bush elephant. It also hosts the Great Migration, which
-                secured it as one of the Seven Natural Wonders of Africa, and as
-                one of the ten Wonders of the World. The Greater Mara ecosystem
-                encompasses areas known as the Maasai Mara National Reserve, the
-                Mara Triangle, and several Maasai Conservancies, including
-                Koiyaki, Lemek, Ol Chorro Oirowua, Mara North, Olkinyei, Siana,
-                Maji Moto, Naikara, Ol Derkesi, Kerinkani, Oloirien, and
-                Kimintet.
-              </p>
-
+              <div class="row">
+                <div class="col-6">
+                  <img
+                    src="cheetah.jpg"
+                    alt="cheetah"
+                    class="img-fluid cheetah"
+                  />
+                </div>
+                <div class="col-6">
+                  <img
+                    src="lion.jpg"
+                    alt="lion"
+                    class="img-fluid"
+                    width="700px"
+                  />
+                </div>
+              </div>
               <br />
               <a href=" https://www.booking.com/ " target="_blank">
                 Book an adventure</a
