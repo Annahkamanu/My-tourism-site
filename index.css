@@ -1,0 +1,82 @@
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  font-weight: lighter;
+}
+
+button {
+  padding: 15px 20px;
+  color: #7c52ef;
+  display: block;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 40px;
+  margin: 30px auto;
+  border: 1px solid #7c52ef;
+  transition: ease-in-out;
+  background: transparent;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+button:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #7c52ef;
+}
+.zebra {
+  display: block;
+  width: 600px;
+  height: 600px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+li {
+  display: inline;
+  margin: 0 20px;
+}
+.paragraph {
+  line-height: 300%;
+  font-family: "Times New Roman", Times, serif;
+  font-size: medium;
+  text-align: left;
+}
+.maps {
+  text-decoration: none;
+  color: #1a64d6;
+  text-align: center;
+}
+.home {
+  text-decoration: none;
+  color: #1a64d6;
+  text-align: center;
+}
+.accommodation {
+  text-decoration: none;
+  color: #1a64d6;
+  text-align: center;
+}
+li :hover {
+  text-decoration: underline;
+}
+
+a :hover {
+  cursor: pointer;
+  transition: 200ms ease-in-out;
+}
+.container {
+  background: linear-gradient(#fff4dd);
+}
+
+.coder {
+  text-align: left;
+}
+@media (max-width: 1300px) {
+  .zebra {
+    max-width: 400px;
+    max-height: 400px;
+  }
+}
