@@ -24,11 +24,7 @@ button:hover {
   color: #fff;
   background-color: #7c52ef;
 }
-.zebra {
-  display: block;
-  width: 600px;
-  height: 600px;
-}
+
 ul {
   list-style: none;
   padding: 0;
@@ -37,6 +33,21 @@ ul {
 li {
   display: inline;
   margin: 0 20px;
+}
+.zebra {
+  display: block;
+  width: 600px;
+  height: 600px;
+}
+.people {
+  display: block;
+  width: 1600px;
+  height: 700px;
+}
+.card {
+  margin: 8px;
+  padding: 48px;
+  background-color: aqua;
 }
 .paragraph {
   line-height: 300%;
