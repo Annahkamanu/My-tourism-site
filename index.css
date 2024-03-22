@@ -34,6 +34,11 @@ li {
   display: inline;
   margin: 0 20px;
 }
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
 .zebra {
   display: block;
   width: 600px;
